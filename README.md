@@ -1,2 +1,1 @@
-# ChargeBee_Translations
-This repository is for translating the available English language pack to Norwegian
+This code expects the enviornment variable named "OPENAI_API_KEY" to be set
