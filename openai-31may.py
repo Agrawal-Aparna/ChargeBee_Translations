@@ -12,7 +12,7 @@ def translate_text(text, desc, target_language='Norsk'):
   print('desc :: ' + desc)
   prompt = f"Please translate the following English text to Norwegian: {text} Only respond with the translation and nothing else. If the context of the text is unclear, the following description of the English text might help to clear up ambiguities: {desc}  If the English text is not likely to have a Norwegian equivalent, e.g. being an English name for some subject or similar, keep the English text."
   completion = openai.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4",
     messages=[
         {
             "role": "user",
